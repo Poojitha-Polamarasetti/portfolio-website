@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Poojitha | Data & Business Analyst</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<script>
+  function toggleMenu() {
+    const nav = document.querySelector('.nav-links');
+    nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+  }
+</script>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <div class="logo">Poojitha</div>
+      <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="section hero">
+    <div class="container">
+      <h1>Poojitha Polamarasetti</h1>
+      <h2>Finance-Focused Data Analyst</h2>
+
+      <p class="subtitle">
+      I specialize in financial and business data analysis, transforming structured datasets into KPI-driven insights and executive-ready dashboards.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#" class="btn outline">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!--Metrics section-->
+  <section class="metrics">
+    <div class="container metrics-grid">
+      
+      <div>
+        <h3>Finance-Focused</h3>
+        <p>Analytics Specialization</p>
+      </div>
+
+      <div>
+        <h3>SQL · Python · BI</h3>
+        <p>Applied Technical Stack</p>
+      </div>
+
+      <div>
+        <h3>Structured</h3>
+        <p>Data-to-Decision Workflow</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+
+        <div class="about-text">
+          <h2>About Me</h2>
+
+          <p>
+          I am a finance-focused Data Analyst with a background in Commerce and a Master’s in Computer Applications.
+          I specialize in profitability analysis, cost behavior tracking, and KPI-driven performance evaluation.
+          </p>
+
+          <p>
+          My strength lies in structuring raw financial datasets into clean, decision-ready insights using SQL, Python, Excel, and BI tools.
+          </p>
+
+          <p>
+          Beyond technical execution, I bring stakeholder-oriented thinking — aligning analysis with real business impact.
+          </p>
+        </div>
+
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <h3>Finance Focus</h3>
+            <p>Profitability analysis, cost behavior, margin tracking</p>
+          </div>
+
+          <div class="highlight-card">
+            <h3>Leadership</h3>
+            <p>Team leadership & mentoring experience</p>
+          </div>
+
+          <div class="highlight-card">
+            <h3>Tools</h3>
+            <p>Python, SQL, Excel, BI</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!--Roadmap-->
+    <section class="section light">
+      <div class="container narrow">
+        <h2>What I Build</h2>
+
+        <p>
+          I design structured analytics systems that translate raw financial and business data into measurable insights.
+          My work focuses on profitability diagnostics, cost-behavior analysis, KPI tracking, and decision-support dashboards.
+        </p>
+
+        <p>
+          Each project follows a defined analytical workflow — problem definition, data cleaning, structured querying,
+          metric evaluation, visualization, and business interpretation.
+        </p>
+
+        <p>
+          Actively developing real-world SQL and Power BI case studies focused on profitability diagnostics, margin analysis, and financial performance tracking.
+        </p>
+      </div>
+    </section>
+      
+
+
+  <!-- SKILLS -->
+  <section id="skills" class="section light">
+    <div class="container">
+      <h2>Skills</h2>
+
+        <div class="skills-grid">
+        <div class="skill-group">
+            <h3>Data & Analytics</h3>
+            <ul>
+            <li>Data Cleaning & Preparation</li>
+            <li>Exploratory Data Analysis (EDA)</li>
+            <li>KPI Definition & Tracking</li>
+            <li>Insight Generation</li>
+            </ul>
+        </div>
+
+        <div class="skill-group">
+            <h3>BI & Visualization</h3>
+            <ul>
+            <li>Power BI</li>
+            <li>Tableau</li>
+            <li>Dashboard Design</li>
+            <li>Data Storytelling</li>
+            </ul>
+        </div>
+
+        <div class="skill-group">
+            <h3>Programming & Databases</h3>
+            <ul>
+            <li>Python (Pandas, NumPy)</li>
+            <li>SQL / MySQL</li>
+            <li>Data Queries & Joins</li>
+            </ul>
+        </div>
+
+        <div class="skill-group">
+            <h3>Business & Reporting</h3>
+            <ul>
+            <li>Business Problem Understanding</li>
+            <li>Decision Support Analysis</li>
+            <li>Stakeholder-Oriented Reporting</li>
+            <li>Documentation & Presentation</li>
+            </ul>
+        </div>
+        </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS --><!---
+  <section id="projects" class="section light">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="projects-grid refined">
+
+        
+        <div class="project-card flagship">
+          <span class="badge">Flagship Project</span>
+          <h3>Profitability Leakage Analysis</h3>
+          <p class="project-intent">
+          Analyzed revenue, discount structures, and category-level cost data to identify drivers of declining profit margins.
+          </p>
+
+          <ul>
+            <li>Tools: SQL, Excel, Power BI</li>
+            <li>Performed margin analysis across product categories</li>
+            <li>Identified high-discount segments reducing net profitability</li>
+            <li>Built executive-level dashboard summarizing key findings</li>
+          </ul>
+          <a href="#" class="btn outline">View Dashboard</a>
+          <a href="#" class="btn primary">GitHub</a>
+        </div>
+
+        
+        <div class="project-card">
+          <h3>Expense & Budget Variance Analysis</h3>
+          <p class="project-intent">
+            Comparing planned versus actual expenses to uncover cost overruns and
+            improve financial control.
+          </p>
+          <p class="project-tags">Cost Behavior · Budget Variance · Excel / SQL</p>
+
+        </div>
+
+        
+        <div class="project-card">
+          <h3>Cash Flow & Financial Health Tracker</h3>
+          <p class="project-intent">
+            Monitoring inflows, outflows, and liquidity indicators to identify potential
+            cash-flow risks and short-term financial stability issues.
+          </p>
+
+          <p class="project-tags">Cash Flow · Financial Health · Reporting</p>
+        </div>
+
+      </div>
+    </div>
+  </section>-->
+
+
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="section light">
+    <div class="container narrow">
+
+      <h2>Contact</h2>
+      <p>
+  📧 <a href="mailto:poojithapolamarasetti02@gmail.com?subject=Opportunity%20Discussion">
+      poojithapolamarasetti02@gmail.com
+      </a>
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/polamarasetti-poojitha-dataanalyst/" target="_blank">LinkedIn</a> ·
+        <a href="https://github.com/Poojitha-Polamarasetti" target="_blank">GitHub</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 Poojitha. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
